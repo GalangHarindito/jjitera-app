@@ -1,0 +1,11 @@
+.editProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.editProfile > .image {
+    display: flex;
+    justify-content: center;
+}

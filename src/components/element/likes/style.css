@@ -1,0 +1,24 @@
+/* svg {
+    width: 1.2rem;
+    margin: 12px 0;
+} */
+
+.active > svg {
+  width: 1.2rem;
+}
+
+.default > svg {
+  width: 1.2rem;
+}
+
+.default > svg > path {
+  fill: transparent;
+  stroke: black;
+  transition: all 0.5s;
+}
+
+.active > svg > path {
+  transition: all 0.5s;
+  fill: #fe251b;
+  stroke: #fe251b;
+}
